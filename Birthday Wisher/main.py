@@ -2,7 +2,7 @@ import smtplib
 import random
 import pandas as pd
 my_email = "itslalimaverma@gmail.com"
-passw = "jkqy fwtd dkzs dqsr"
+passw = "your passwd"
 import datetime as dt
 today=dt.datetime.now()
 today_tuple=(today.month,today.day)
@@ -30,7 +30,7 @@ if today_tuple in birthdays_dict:
 #import smtplib
 # import pandas as pd
 # my_email = "itslalimaverma@gmail.com"
-# passw = "jkqy fwtd dkzs dqsr"
+# passw = "your passwd"
 # import datetime as dt
 # now = dt.datetime.now()
 # weekday=now.weekday()
